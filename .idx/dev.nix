@@ -24,6 +24,7 @@
     ];
     workspace = {
       onCreate = {
+        installDeps = "npm install";
         default.openFiles = [
           "src/app/page.tsx"
         ];
